@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>sing up</title>
+    <title>profile update info</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-rtl.css" rel="stylesheet">
@@ -91,19 +91,45 @@
 
               
 
-   <div class="container-fluid remove-padding log-main">
-   <div class="container remove-padding">
-      <div class="col-md-6 col-md-offset-3 col-xs-12 col-sm-8 col-sm-offset-2 log-form-main">
-          <img src="img/logo.png">
+    <div class="container remove-padding pro-main">
+       <div class="col-md-3">
+          <div class="col-xs-12 pro-side-bar remove-padding">
+             <ul>
+                <li class="active"><a href="#">البيانات الشخصية</a></li>
+                <li><span>المفضلة</span>
+                  <ul>
+                     <li><a href="#">الاخبار</a></li>
+                     <li><a href="#">المقالات</a></li>
+                     <li><a href="#">الوظائف</a></li>
+
+                  </ul>
+                 </li>
+                                <li><span>المضافة</span>
+                  <ul>
+                     <li><a href="#">الاخبار</a></li>
+                     <li><a href="#">المقالات</a></li>
+                     <li><a href="#">الوظائف</a></li>
+
+                  </ul>
+                 </li>
+             </ul>
+          </div>
+       </div>
+       <div class="col-md-9">
           
+   <div class=" log-main">
+   <div class="">
+      <div class="col-xs-12 log-form-main">
+        
+          <h1>تغير البيانات الشخصية</h1>
 
           <form>
 
 <div class="img-up-main col-xs-12 remove-padding">
   
-            <div id="img_contain"><img id="blah" align="middle" alt="" title=""></div>
+            <div id="img_contain"><img id="blah" src="img/1.png" align="middle" alt="" title=""></div>
             <label class="upload-btn"> <input type="file" id="imgInp">
-            <div> رفع الصورة
+            <div> تغير الصورة
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><polygon points="17.4 15.7 17.4 13 15.7 13 15.7 15.7 13 15.7 13 17.4 15.7 17.4 15.7 20 17.4 20 17.4 17.4 20 17.4 20 15.7 17.4 15.7" style="fill:#f26627"></polygon><path d="M13.9,13.9h0A6.9,6.9,0,0,0,9.6,7.4,3.5,3.5,0,0,0,7.7,1.7h8v9.6h1.7V0H0V17.4H11.3V15.7H1.7V13.9h0A5.2,5.2,0,0,1,6.9,8.6H7a5.2,5.2,0,0,1,5.2,5.2h1.7ZM4.3,7.4A8.6,8.6,0,0,0,1.7,9.2V1.7H6.2A3.4,3.4,0,0,0,4.3,7.4ZM7,6.9H6.9a1.7,1.7,0,1,1,.1,0Z" transform="translate(0 0)" style="fill:#f26627"></path></svg>
       </div></label>
 
@@ -112,30 +138,25 @@
 
               <div class="col-xs-12 remove-padding">
                    <p>الاسم</p>
-                   <input type="text" name="">
+                   <input type="text" name="" placeholder="islam">
 
               </div>
 
 
                             <div class="col-xs-12 remove-padding">
                    <p>الاميل</p>
-                   <input type="text" name="">
+                   <input type="text" name="" placeholder="islam@islam.com">
 
               </div>
 
 
-                            <div class="col-xs-12 remove-padding">
-                   <p>كلمة السر</p>
-                   <input type="password" name="password" id="password-field" value="">
-<span toggle="#password-field" class="field-icon toggle-password eye-close"></span>
 
-              </div>
 
 
             <div class="col-xs-12 remove-padding">
               <p>البلد</p>
               <select class="my-select chosen-rtl">
-                <option selected="selected" disabled>اختر البلج</option>
+                <option selected="selected" disabled>روسيا</option>
                
                 <option>مصر</option>
                 <option>فيلندل</option>
@@ -149,7 +170,7 @@
             <div class="col-xs-12 remove-padding">
               <p>اللغة</p>
               <select class="my-select chosen-rtl">
-                <option selected="selected" disabled>اختر البلج</option>
+                <option selected="selected" disabled>العربية</option>
                
                 <option>العربية</option>
                 <option>الانجليزية</option>
@@ -161,13 +182,13 @@
               
               
 
-              <button type="submit">تسجيل الاشتراك</button>
+              <button type="submit">حفظ</button>
 
           </form>
 <div class="col-xs-12 remove-padding text-center social-log">
 
 
- <p>قمت بالتسجيل سابقا  ؟  <a href="#">تسجيل الدخول</a></p>  
+ <p> <a href="#">تعير كلمة السر</a></p>  
 
 </div>
 
@@ -186,6 +207,8 @@
 </div>
 
 
+       </div>
+    </div>
 
 
 
@@ -257,12 +280,12 @@
    </div>
 </div>
 
+<span class="open-space-side visible-xs visible-sm">صفحتي</span>
 
 
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/chosen.jquery.js"></script>
-<script src="js/init.js"></script>
 <script type="text/javascript">
 	
 
@@ -316,24 +339,26 @@ $( ".button_su_inner" ).mouseleave(function(e) {
     });
 
 
-$( ".profile-mob-head" ).click(function() {
-$('.profile-mob-links').slideToggle();
-$(this).toggleClass( "pro-open" );
+
+$.fn.extend({
+        toggleText: function (a, b){
+            var isClicked = false;
+            var that = this;
+            this.click(function (){
+                if (isClicked) { that.text(a); isClicked = false; }
+                else { that.text(b); isClicked = true; }
+            });
+            return this;
+        }
+    });
+ $( ".open-space-side" ).toggleText("صفحتي", "عودة");
+
+
+
+$(".open-space-side").click(function(){
+  $(".pro-side-bar").toggleClass("side-active");
+ 
 });
-
-
-
-$(".toggle-password").click(function() {
-
-  $(this).toggleClass("eye-close eye-open");
-  var input = $($(this).attr("toggle"));
-  if (input.attr("type") == "password") {
-    input.attr("type", "text");
-  } else {
-    input.attr("type", "password");
-  }
-});
-
 
 $(".my-select").chosen();
 
